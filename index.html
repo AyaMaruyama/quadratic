@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quadratic calculator</title>
+    <style>
+        main {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            margin-bottom: 4px;
+        }
+    </style>
+    <script src="js/quadratic.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Калькулятор квадратичного уравнения</h1>
+            <div class="input-fields">
+                <p>Число A</p>
+                <input type="text" id="num1" name="A"><br>
+                <p>Число B</p>
+                <input type="text" id="num2" name="B"><br>
+                <p>Число C</p>
+                <input type="text" id="num3" name="C"><br>
+            </div>
+            <br>
+            <input type="button" id="calculate" value="Расчитать" onClick="Quadratic()"><br><br>
+            <span id="values"></span><br>
+            <span id="text"></span>
+        </div>        
+    </main>
+</body>
+</html>
